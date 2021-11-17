@@ -17,7 +17,7 @@ public class FriendController {
 
     @GetMapping("/test")
     public String test(){
-        return  "test";
+        return  "test my name";
     }
 
     @GetMapping("/friends")
